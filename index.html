@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/style.css?t=8918d">
+</head>
+
+<body>
+  <div id="mobile-nav">
+    <div id="mobile-nav-items">
+      <a href="#">
+        <p class="logo">Ix</p>
+      </a>
+      <p><a href="#features">Features</a></p>
+      <p><a href="#for-health">Health</a></p>
+      <p><a href="#for-defense">Defense</a></p>
+      <p><a href="#team">About</a></p>
+      <p><a href="#signup" style="font-weight: bold; color: crimson;">GET UPDATES</a></p>
+    </div>
+    <div id="mobile-nav-toggle">
+      <p style="font-size: 1.5rem; padding: 0 1rem 0 1rem;">&#9776;</p>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-left">
+      <a href="#">
+        <p class="logo">Ix</p>
+      </a>
+      <p><a href="#features">Features</a></p>
+      <p><a href="#for-health">Health</a></p>
+      <p><a href="#for-defense">Defense</a></p>
+      <p><a href="#team">Team</a></p>
+    </div>
+    <div class="nav-right">
+      <p class="cta"><a href="#signup">Get Updates</a></p>
+    </div>
+  </nav>
+
+  <div id="main">
+
+    <a name="home"> </a>
+    <section class="hero">
+      <div id="title">
+        <div class="flex" , style="gap: 2rem;">
+          <img id="logo" src="/img/logo.svg" height="150px" />
+          <h1>Learn everything. Expose nothing.</h1>
+        </div>
+        <p>
+          Ix is a secure, scalable machine learning framework that creates unified <i>information</i> from siloed
+          <i>data</i>&mdash;enabling members to leverage and contribute to collective intelligence while keeping their
+          data private
+          within their existing infrastructure.
+        </p>
+      </div>
+      <img class="bkg" src="/img/mj/bkg.webp" />
+    </section>
+
+
+    <a name="features"> </a>
+    <section style="background-color: white;">
+      <div class="section-inner">
+        <header>
+          <h1>
+            Become more effective, efficient, informed, innovative, resilient, and secure.
+          </h1>
+        </header>
+      </div>
+
+      <div class="section-inner cards">
+
+        <div class="card">
+          <div class="inner">
+            <div class="icon">
+              <img src="/img/mj/im11.webp" />
+            </div>
+            <div class="text">
+              <h1>Unified global intelligence</h1>
+              <p>
+                Learn across organizations, sectors, and geographies without exposing sensitive data. Create unified
+                explainable models that allow you to <b>learn what has been, until now, unknowable</b>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="inner">
+            <div class="icon">
+              <img src="/img/mj/im0.webp" />
+            </div>
+            <div class="text">
+              <h1>Maximum security; minimal encryption overhead</h1>
+              <p>
+                <b>Keep your data where it belongs&mdash;in your secure systems.</b> Ix requires temporary encryption
+                only for
+                foreign keys, which are used to create handshakes between models. All other data are secure without
+                encryption.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="inner">
+            <div class="icon">
+              <img src="/img/mj/im6.webp" />
+            </div>
+            <div class="text">
+              <h1>Clean and secure data automatically</h1>
+              <p>
+                Ix identifies and attributes errors and anomalies, and monitors your data in real time. Free up time to
+                do the fun stuff while reducing exposure to incidents and litigation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="dark">
+      <div class="section-inner">
+        <header>
+          <h1>Ix is easy.</h1>
+        </header>
+      </div>
+      <div class="section-inner col-2 reverse">
+        <div>
+          <h3>1. Install Ix on your systems</h3>
+          <p>
+            Install Ix on your current infrastructure. No special hardward like GPUs, TPUs, or FHE
+            accelerators required.
+          </p>
+
+          <br />
+
+          <h3>2. Build a local model</h3>
+          <p>
+            Ix learns a holistic model of all attached data systems. This model extracts the information within your
+            data systems, helps you continuously identify and monitor erroneous and anomalous data, and de-risk
+            opportunities for
+            automation and
+            predictive analytics within your org.
+          </p>
+
+          <br />
+
+          <h3>3. Connect to the global exchange &amp; learn</h3>
+          <p>
+            Connect to the Ix-global machine learning mesh to pull in external information for better local model
+            performance, and for access to queries based on external features.
+          </p>
+        </div>
+        <div class="flex">
+          <img src="/img/mj/im10.webp" />
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="section-inner">
+        <header>
+          <h1>Boundless secure learning across orgs, sectors, and geographies.</h1>
+        </header>
+      </div>
+      <div class="section-inner col-2 reverse">
+        <div>
+          <h3>Beyond federated learning &amp; homomorphic encryption</h3>
+          <br />
+          <p>Today cross-orgnizational inference involves coordinating across orgs with similar data features. Orgs
+            collectively decide which prediction(s) they want to model, then they
+            run <i>federated learning</i> (FL) on their encrypted data using <i>homomorphic encryption</i> (HE) by
+            remotely averaging
+            black box models during inference. In additon to adding extreme computational overhead,
+            FL+HE is inflexible and unintepretable.
+          </p>
+          <br />
+          <br />
+          <table cellspacing=0>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Ix</th>
+                <th>FL+HE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Distributed computation</td>
+                <td class="yes">Yes</td>
+                <td class="yes">Yes</td>
+              </tr>
+              <tr>
+                <td>Allows disjoint features to be distributed</td>
+                <td class="yes">Yes</td>
+                <td class="no">No</td>
+              </tr>
+              <tr>
+                <td>Hides operational intent</td>
+                <td class="yes">Yes</td>
+                <td class="no">No</td>
+              </tr>
+              <tr>
+                <td>Handles tera/petabyte data</td>
+                <td class="yes">Yes</td>
+                <td class="no">No</td>
+              </tr>
+              <tr>
+                <td>Answer many questions with one model</td>
+                <td class="yes">Yes</td>
+                <td class="no">No</td>
+              </tr>
+              <tr>
+                <td>Exact inference</td>
+                <td class="yes">Yes</td>
+                <td class="no">No</td>
+              </tr>
+              <tr>
+                <td>Intepretable model with uncertainty quantification</td>
+                <td class="yes">Yes</td>
+                <td class="no">No</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="flex">
+          <img src="/img/mj/im4.webp" style="filter: sepia(30%) contrast(93%)" />
+        </div>
+      </div>
+    </section>
+
+    <section class="dark">
+      <div class="section-inner">
+        <header>
+          <h1>Accurate unified inference without unified data</h1>
+        </header>
+      </div>
+      <div class="section-inner col-23 reverse">
+        <div>
+          <h3>Ix learns an image using siloed pixel coordinates</h3>
+          <p>
+            Model X contains pixel x-coordinates while Model Y contains pixel y-coordinates. Ix securely joins inference
+            across X and Y to successfully recover the complex statistical distributions of the image of Laplace despite
+            coordinate separation across isolated models.
+          </p>
+          <p> Left) Original data. Right) Ix simulated output by inference step</p>
+        </div>
+        <div class="flex">
+          <img src="/img/laplace.gif" />
+        </div>
+      </div>
+    </section>
+
+    <a name="for-health"> </a>
+    <section style="background-color: white;">
+      <div class="section-inner">
+        <header>
+          <h1>Ix for Healthcare</h1>
+        </header>
+      </div>
+      <div class="section-inner col-2">
+        <div class="flex">
+          <img src="/img/mj/im8.webp" />
+        </div>
+        <div>
+          <h3>Lack of data is no longer a problem</h3>
+          <p>
+            Clinical and health AI systems often fail due to the impossibility of obtaining high-quality, diverse, and
+            representative datasets that account for real-world variations in patient populations, treatment protocols,
+            and healthcare practices across different regions. This leads to algorithms that make inappropriate or
+            unsafe
+            recommendations when deployed. <b>Ix enables secure access to all connected health information</b>,
+            mitigating these issues.
+          </p>
+
+          <br />
+
+          <h3>Bring surprising information sources to bear</h3>
+          <p>
+            By connecting to cross-sector information, <b>Ix brings in relevant external information derived from
+              external databases</b>
+            linking an individual's diet, residence, travel, work schedule and history, and more to their health
+            records,
+            in turn reducing confounds that
+            can cause clinical
+            systems to break down&mdash;<b>all without revealing any individual data</b>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <a name="for-defense"> </a>
+    <section>
+      <div class="section-inner">
+        <header>
+          <h1>Ix for National Security</h1>
+        </header>
+      </div>
+      <div class="section-inner col-2 reverse">
+        <div>
+          <h3>Eliminate deadly silos &amp; hide operational intent</h3>
+          <p>
+            Ix enables easy secure cross-org information sharing, maximizing threat detection likelihood.
+            The only thing connecting orgs
+            need to know about collaborators' data stores is the connecting feature. For example, if Org A has a
+            Personnel database with phone numbers and Org B has a Comms database with phone numbers, Org A and Org B can
+            share information without knowing anything about each other's data.
+          </p>
+          <br />
+
+          <h3>Idenitify emerging and novel threats</h3>
+          <p>
+            Ix is built for real-time error and anomaly detection. Using <i>metalearning</i>, Ix can categorize types of
+            anomalies to help idenitfiy anomalies specifically resulting from malicous activity.
+          </p>
+
+          <br />
+
+          <h3>Compute at scale with legacy hardware</h3>
+          <p>
+            It's not easy to swap out hardware in highly secure systems. Ix is designed to be fast on any 64-bit CPU
+            architecture: laptops, desktops, servers, phones, smart toilets&mdash;whatever.
+          </p>
+        </div>
+        <div class="flex">
+          <img src="/img/mj/im1.webp" style="filter: sepia(30%) contrast(93%)" />
+        </div>
+      </div>
+    </section>
+
+    <a name="team"> </a>
+    <section style="background-color: white;">
+      <div class="section-inner">
+        <header>
+          <h1>
+            Ix required a <i>revolution</i>, so we got the right minds in the right place and thought about AI/ML
+            differently.
+          </h1>
+          <br />
+          <h3>
+            Ix is a spinout of Redpoll, which was founded in 2019 with the sole purpose of developing new ML
+            methdologies
+            from the ground up that can be safely deployed to solve long-standing problems in high-risk,
+            high-impact domains.
+          </h3>
+        </header>
+      </div>
+      <div class="section-inner cards-3">
+
+        <div class="card">
+          <div class="inner">
+            <div class="icon">
+              <img class="person" src="/img/ppl/bax.jpg" />
+            </div>
+            <div class="text">
+              <br />
+              <h1>Baxter Eaves, PhD</h1>
+              <h2>Founder &amp; CEO</h2>
+              <p>
+                Baxter is a US Navy veteran and holds a PhD in Experimental Psychology and completed Postdoctoral
+                research in AI/ML at MIT and Rutgers. He has led a number of DARPA
+                projects and brings 15 years of experience deploying human-inspired AI/ML tech in high-risk industries.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="inner">
+            <div class="icon">
+              <img class="person" src="/img/ppl/pat.jpg" />
+            </div>
+            <div class="text">
+              <br />
+              <h1>Patrick Shafto, PhD</h1>
+              <h2>Founder &amp; Scientist at Large</h2>
+              <p>
+                Patrick is a program manager at DARPA under the Information Innovation office (I20) and professor of
+                Data Science at Rutgers University - Newark.
+                His publications have appeared in top journals of machine and human learning.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="inner">
+            <div class="icon">
+              <img class="person" src="/img/ppl/mike.jpg" />
+            </div>
+            <div class="text">
+              <br />
+              <h1>Michael Schmidt</h1>
+              <h2>ML Engineer</h2>
+              <p>
+                Michael has 14 years of research and engineering experience. He has built production ML systems for
+                healthcare, agronomy, finance, and law; and has conducted research in the areas of physics,
+                differential geometry, and high-performance computing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a name="signup"> </a>
+    <section>
+      <div class="section-inner">
+        <header>
+          <h1>Subscribe to updates</h1>
+        </header>
+      </div>
+      <div class="section-inner col-2">
+        <div>
+          <p>Ix is currently building invite-only exchanges in health, finance, and natsec. Please provide your
+            information below
+            to receive
+            company updates and notifications about beta availability.</p>
+          <br />
+          <br />
+          <form action="https://formspree.io/f/manjonbo" method="POST">
+            <div>
+              <label for=fullname>Name</label>
+              <input name=fullname id=fullname type=text />
+            </div>
+            <div>
+              <label for=org>Organization</label>
+              <input name=org id=org type=text />
+            </div>
+            <div>
+              <label for=email>Email Address</label>
+              <input name=email id=email type=email />
+            </div>
+            <button type=submit>Submit</button>
+          </form>
+        </div>
+        <div class="flex">
+          <img src="/img/mj/im9.webp" style="filter: sepia(30%) contrast(93%)" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <p>Copyright &copy; Ix</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggle = document.getElementById('mobile-nav-toggle');
+      const navItems = document.getElementById('mobile-nav-items');
+
+      toggle.addEventListener('click', function (e) {
+        toggle.style.display = 'none';
+        navItems.style.display = 'block';
+        navItems.classList.add('open');
+      });
+
+      document.addEventListener('click', function (e) {
+        if (navItems.style.display === 'block') {
+          if (navItems.contains(e.target) || toggle.contains(e.target)) {
+            return;
+          }
+          navItems.style.display = 'none';
+          toggle.style.display = 'inline-block';
+          navItems.classList.remove('open');
+        }
+      });
+
+      navItems.addEventListener('click', function () {
+        navItems.style.display = 'none';
+        toggle.style.display = 'inline-block';
+        navItems.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+
+</html>
