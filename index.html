@@ -73,13 +73,15 @@
       </div>
       <div class="section-inner col-23 reverse">
         <div>
-          <h3>Ix learns an image using siloed pixel coordinates</h3>
+          <h3>
+            <i>Example</i>: Ix learns an image using siloed pixel coordinates
+          </h3>
           <p>
-            Model X contains pixel x-coordinates while Model Y contains pixel y-coordinates. Ix securely joins inference
-            across X and Y to successfully recover the complex statistical distributions of the image of Laplace despite
-            coordinate separation across isolated models.
+            <b>Left</b>) Original data. <b>Right</b>) Ix simulated output by inference step. <b>Ix recovers the joint
+              distribution of the
+              image by combining two models that never see both sides of the data</b>&mdash;model X sees only the pixel
+            x-coordinate, and model Y sees only the y-coordinate.
           </p>
-          <p> Left) Original data. Right) Ix simulated output by inference step</p>
         </div>
         <div class="flex">
           <img src="img/laplace.gif" />
@@ -107,7 +109,8 @@
             <div class="text">
               <h1>Unified global intelligence</h1>
               <p>
-                Learn across organizations, sectors, and geographies without exposing sensitive data. Create unified
+                Bypass the security risks and legal/statutory risks associated with sharing data, and learn across
+                organizations, sectors, and geographies without exposing sensitive data. Create unified
                 explainable models that allow you to <b>learn what has been, until now, unknowable</b>.
               </p>
             </div>
@@ -159,7 +162,7 @@
         <div>
           <h3>1. Install Ix on your systems</h3>
           <p>
-            Install Ix on your current infrastructure. No special hardward like GPUs, TPUs, or FHE
+            Install Ix on your current infrastructure. No special hardware like GPUs, TPUs, or FHE
             accelerators required.
           </p>
 
@@ -197,14 +200,19 @@
       </div>
       <div class="section-inner col-2 reverse">
         <div>
-          <h3>Beyond federated learning &amp; homomorphic encryption</h3>
+          <!-- <h3>Beyond federated learning &amp; homomorphic encryption</h3> -->
+          <h3>
+            Like federated learning with homomorphic encryption but more flexible, more secure, more interpretable, and
+            64,000x<sup>*</sup> faster.
+          </h3>
+          <p style="color: #aaa;">*Compared to zama <code>concrete-ml</code> model trained using FHE. </p>
           <br />
-          <p>Today cross-orgnizational inference involves coordinating across orgs with similar data features. Orgs
+          <p>Today cross-organizational inference involves coordinating across orgs with similar data features. Orgs
             collectively decide which prediction(s) they want to model, then they
             run <i>federated learning</i> (FL) on their encrypted data using <i>homomorphic encryption</i> (HE) by
             remotely averaging
-            black box models during inference. In additon to adding extreme computational overhead,
-            FL+HE is inflexible and unintepretable.
+            black box models during inference. In addition to adding extreme computational overhead,
+            FL+HE is inflexible and uninterpretable.
           </p>
           <br />
           <br />
@@ -311,17 +319,18 @@
           <h3>Eliminate deadly silos &amp; hide operational intent</h3>
           <p>
             Ix enables easy secure cross-org information sharing, maximizing threat detection likelihood.
-            The only thing connecting orgs
-            need to know about collaborators' data stores is the connecting feature. For example, if Org A has a
+            The only thing participating orgs
+            need to know about collaborators' data stores is the presence (not content) of common indexable feature. For
+            example, if Org A has a
             Personnel database with phone numbers and Org B has a Comms database with phone numbers, Org A and Org B can
             share information without knowing anything about each other's data.
           </p>
           <br />
 
-          <h3>Idenitify emerging and novel threats</h3>
+          <h3>Identify emerging and novel threats</h3>
           <p>
             Ix is built for real-time error and anomaly detection. Using <i>metalearning</i>, Ix can categorize types of
-            anomalies to help idenitfiy anomalies specifically resulting from malicous activity.
+            anomalies to help identify anomalies specifically resulting from malicious activity.
           </p>
 
           <br />
@@ -349,7 +358,7 @@
           <br />
           <h3>
             Ix is a spinout of Redpoll, which was founded in 2019 with the sole purpose of developing new ML
-            methdologies
+            methodologies
             from the ground up that can be safely deployed to solve long-standing problems in high-risk,
             high-impact domains.
           </h3>
@@ -422,7 +431,7 @@
       </div>
       <div class="section-inner col-2">
         <div>
-          <p>Ix is currently building invite-only exchanges in health, finance, and natsec. Please provide your
+          <p>Ix is currently building invite-only exchanges in health, finance, and NATSEC. Please provide your
             information below
             to receive
             company updates and notifications about beta availability.</p>
